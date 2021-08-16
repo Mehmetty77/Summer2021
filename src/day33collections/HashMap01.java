@@ -41,10 +41,20 @@ public class HashMap01 {
 
         System.out.println(hm1);
 
+        System.out.println(hm1.containsKey(108));//false
 
+        hm1.containsValue("Veli Han");
 
+        HashMap<Integer, String> hm2 = new HashMap<>();
+        hm2.put(108, "X");
+        hm2.put(109, "Süleyman");
+        hm2.put(102, "zzz");
+        hm2.put(103, "Kamil");
+        hm2.put(100, "yyy");
 
+        hm1.putAll(hm2);
 
+        hm1.replace(106,"LLLL");
 
 
 

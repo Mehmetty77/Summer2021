@@ -97,7 +97,9 @@ public class String01 {
         //    \\W ==> stands for all characters diffrent from _ and a-z and A-Z and 0-9
         System.out.println(str7.replaceAll("\\w", ""));//   ./!
         System.out.println(str7.replaceAll("\\W", "")); //AB_78965_jkJ02145
-        
+
+
+
         //c) \\s  stands for space
         //   \\S  stands for all characters different from space
         
@@ -120,6 +122,9 @@ public class String01 {
         String str10 = "ali bey is booked ";
         System.out.println(str10.replaceAll("[koy]", "e")); //ali bee is beeeed 
         System.out.println(str10.replaceAll("[^ab]", "*")); //a***b******b******
-        
+
+        // g) \\p stands for punctuation marks
+        //     \\P  stands for all characters different from punctuation marks
+
     }
 }
